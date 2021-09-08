@@ -1,0 +1,22 @@
+.togglecreatenote {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mynotescontainer {
+  margin: 2rem;
+}
+.togglecreatenote {
+  margin: 1rem;
+}
+.togglebtn {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+}
+.togglebtn :hover {
+  background-color: green;
+  color: #fff;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}

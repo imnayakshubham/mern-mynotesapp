@@ -1,0 +1,35 @@
+.signupContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.signupdiv {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userinput,
+.custom-file {
+  width: 17.5rem;
+  height: 3rem;
+}
+.signup_heading {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.signupbtn {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-content: center;
+  /* padding: 17.5rem; */
+}
+.signupbtn > button {
+  padding: 0.5rem;
+  width: 17.5rem;
+  height: 3rem;
+}
+.custom-file {
+  cursor: pointer;
+}
